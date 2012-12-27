@@ -1,0 +1,57 @@
+
+/**
+ *  Response boxes that has success, fail, warning, information, loading..
+ *
+ *  @filename       mdmsgpopbox-1.0.css
+ *  @date           27.12.12
+ *  @author         Murat Duzgun
+ *  @see            https://github.com/mrtduzgun/jquery-mdmsgpopbox
+*/
+ 
+ .mdMsgpopboxOverlay {
+    background: none repeat scroll 0 0 #000000;
+    height: 100%;
+    left: 0;
+    opacity: 0.4;
+    -moz-opacity: 0.4;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=40);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.mdMsgpopbox {
+    position: fixed;
+    top: 33%;
+    left: 33%;
+    width: 33%;
+    color: #fff;
+    background-color: #364247;
+    z-index: 9999;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font: bold 18px "Ubuntu Beta",UbuntuBeta,Ubuntu,"Bitstream Vera Sans","DejaVu Sans",Tahoma,sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 140%;
+}
+.mdMsgpopboxSuccess {
+    padding: 16px 20px 20px 60px;
+    background: url('images/success_32x32.png') no-repeat 15px center;
+    color: #7EC924;
+}
+.mdMsgpopboxFail {
+    padding: 16px 20px 20px 60px;
+    background: url('images/fail_32x32.png') no-repeat 15px center;
+    color: #FA3939;
+}
+.mdMsgpopboxWarning {
+    padding: 16px 20px 20px 60px;
+    background: url('images/warning_24x24.png') no-repeat 15px center;
+    color: #FDDD62;
+}
+.mdMsgpopboxLoading {
+    padding: 16px 20px 20px 60px;
+    background: url('images/loading_24x24.gif') no-repeat 15px center;
+    color: #fff;
+    cursor: wait;
+}
