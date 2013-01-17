@@ -49,6 +49,11 @@
     background: url('images/warning_24x24.png') no-repeat 15px center;
     color: #FDDD62;
 }
+.mdMsgpopboxInfo {
+    padding: 16px 20px 20px 60px;
+    background: url('images/info_32x32.png') no-repeat 15px center;
+    color: #2593cc;
+}
 .mdMsgpopboxLoading {
     padding: 16px 20px 20px 60px;
     background: url('images/loading_24x24.gif') no-repeat 15px center;

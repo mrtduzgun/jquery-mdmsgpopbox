@@ -1,0 +1,347 @@
+
+/* 
+    @filename       common.css
+    @date           22.06.12
+    @author         Murat Duzgun
+    @description    mavi, yesil agirlikli genel stiller icerir
+*/
+
+/* -------------- Form Styles ----------------- */
+
+.mdTextBox {
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    font-size: 13px !important;
+    color: #000;
+    letter-spacing: 1px !important;
+}
+
+.mdRadio {
+    margin-right: 5px;
+}
+
+.mdRadioLabel {
+    position: relative;
+    top: 2px;
+}
+
+.mdRequiredField {
+    color: #f00;
+    font-weight: bold;
+}
+
+/* -------------- Layout Styles ----------------- */
+
+.mdBlockContainer {
+    font-family: "Ubuntu Beta",UbuntuBeta,Ubuntu,"Bitstream Vera Sans","DejaVu Sans",Tahoma,sans-serif;
+    margin: 10px auto 20px;
+    width: 800px;
+}
+
+.mdBlock {
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+.mdBlockBody {
+    padding: 20px;
+}
+
+.mdBlockHeader {
+    padding: 8px 16px;
+    font-weight: bold;
+    font-size: 14px;
+    background: #759AAF;
+    color: #fff;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #666;
+    box-shadow: 0 1px rgba(255, 255, 255, 0.3) inset, 0 -2px 2px rgba(0, 0, 0, 0.03) inset, 0 2px white, 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.mdBlockExpander,
+.mdBlockExpanderUp {
+    width: 16px;
+    height: 16px;
+    background: url('/images/md_common/md_blockheader_down_arrow_16x16.png') no-repeat;
+    float: right;
+}
+
+.mdBlockExpander:hover,
+.mdBlockExpanderUp:hover {
+    cursor: pointer;
+}
+
+.mdBlockExpanderUp {
+    background: url('/images/md_common/md_blockheader_up_arrow_16x16.png') no-repeat;
+}
+
+/* ---------------- Table Styles ------------------ */
+
+.mdTable {
+    width: 100%;
+}
+
+.mdTable thead td {
+    text-align: center;
+}
+
+.mdTable a {
+    color: #dd0000;
+    text-decoration: none;
+}
+
+.mdTable a:hover {
+    text-decoration: underline;
+}
+
+.mdTableHover tbody tr:hover {
+    background: #dedede;
+}
+
+.mdTable td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.mdTableZebra tbody tr:nth-child(2n) {
+    background: #dedede;
+}
+
+.noTableBorder,
+.noTableBorder td {
+    border: 0;
+}
+
+.mdTableHeader {
+    background: #759AAF;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    border-bottom: 1px solid #000 !important;
+    border-right: 1px solid #000;
+    box-shadow: 0 1px rgba(255, 255, 255, 0.3) inset, 0 -2px 2px rgba(0, 0, 0, 0.03) inset, 0 2px white, 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.mdTableLabel {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.mdTableTool {
+    text-align: center;
+    vertical-align: middle;
+}
+.mdTableTool .mdTableToolSamplepic,
+.mdTableTool .mdTableToolView, 
+.mdTableTool .mdTableToolEdit, 
+.mdTableTool .mdTableToolDelete, 
+.mdTableTool .mdTableToolAvailable, 
+.mdTableTool .mdTableToolRejected, 
+.mdTableTool .mdTableToolPending {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.mdTableTool .mdTableToolSamplepic {
+    width: 32px;
+    height: 32px;
+    padding: 3px 5px;
+    background: url('/images/md_common/md-sample-picture-32x32.png') no-repeat;
+}
+.mdTableTool .mdTableToolView {
+    background: url('/images/md_common/md-toolset-sprite.png') no-repeat 0 0;
+}
+.mdTableTool .mdTableToolView:hover {
+    background: url('/images/md_common/md-toolset-sprite.png') no-repeat 0 -20px;
+}
+.mdTableTool .mdTableToolEdit {
+    background: url('/images/md_common/md-toolset-sprite.png') no-repeat -40px 0;
+}
+.mdTableTool .mdTableToolEdit:hover {
+    background: url('/images/md_common/md-toolset-sprite.png') no-repeat -40px -20px;
+}
+.mdTableTool .mdTableToolDelete {
+    background: url('/images/md_common/md-toolset-sprite.png') no-repeat -20px 0;
+}
+.mdTableTool .mdTableToolDelete:hover {
+    background: url('/images/md_common/md-toolset-sprite.png') no-repeat -20px -20px;
+}
+.mdTableTool .mdTableToolAvailable {
+    background: url('/images/md_common/md-status-sprite.png') no-repeat 0 0;
+}
+.mdTableTool .mdTableToolRejected {
+    background: url('/images/md_common/md-status-sprite.png') no-repeat -20px 0;
+}
+.mdTableTool .mdTableToolPending {
+    background: url('/images/md_common/md-status-sprite.png') no-repeat -40px 0;
+}
+
+/* ---------------- Button Styles ------------------- */
+
+.mdButton,
+.mdSmallButton {
+    background: #759AAF;
+    border-radius: 3px 3px 3px 3px;
+    border: 1px solid #666;
+    color: #FFFFFF;
+    font: bold 13px 'Lucida Grande',Tahoma,Verdana,Arial,sans-serif;
+    letter-spacing: 0.7px;
+    margin-top: 10px;
+    padding: 6px 12px;
+    box-shadow: 0 1px rgba(255, 255, 255, 0.3) inset, 0 -2px 2px rgba(0, 0, 0, 0.03) inset, 0 2px white, 0 0 2px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+
+.mdSmallButton {
+    padding: 4px 8px;
+    font-size: 11px;
+}
+
+.mdButton:hover,
+.mdSmallButton:hover,
+.mdButtonClicked {
+    cursor: pointer;
+    background: #37662b;
+    border-color: #000;
+    color: #fff;
+}
+
+.mdButtonDisabled,
+.mdSmallButtonDisabled {
+    background: #dedede;
+    color: #666;
+}
+
+.mdButtonDisabled:hover,
+.mdSmallButtonDisabled:hover {
+    background: #dedede;
+    color: #666;
+    border-color: #666;
+    cursor: auto;
+}
+
+.mdButtonSet .mdButton, 
+.mdButtonSet .mdSmallButton {
+    margin-right: 10px;
+}
+
+.mdAccordionHeader {
+    display: block;
+    width: 100%;
+}
+
+.mdAccordionBody {
+    display: none;
+    border: 1px solid #dedede;
+}
+
+/* ----------- Response Styles ------------- */
+
+.mdResponseSuccess,
+.mdResponseFail,
+.mdResponseWarning,
+.mdResponseInfo {
+    padding: 14px 20px 16px 60px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #626262;
+    line-height: 160%;
+    text-align: left;
+    margin: 20px;
+}
+
+.mdResponseSuccess {
+    background: url('/images/md_common/md_success_32x32.png') no-repeat #CF9 15px;
+    border: 1px solid #72c868;
+}
+.mdResponseFail {
+    background: url('/images/md_common/md_delete_24x24.png') no-repeat #fbe3e4 15px;
+    border: 1px solid #e0011b;
+}
+.mdResponseWarning {
+    background: url('/images/md_common/md_warning_24x24.png') no-repeat #fff6bf 15px;
+    border: 1px solid #d2cd7a;
+}
+.mdResponseInfo {
+    background: url('/images/md_common/md_info_24x24.png') no-repeat #a8ddef 15px;
+    border: 1px solid #47a7c7;
+}
+
+/* -------------- Framebox Styles ---------------- */
+
+.mdFramebox {
+    margin: 10px;
+    background: #d6e3d6;
+    border: 1px solid #6fa071;
+    width: 140px;
+    float: left;
+}
+
+.mdFrameboxBody {
+    padding: 6px 10px;
+    text-align: center;
+    border-bottom: 1px dashed #7bab7e;
+}
+
+.mdFrameboxBody img {
+    width: 100px;
+    height: 80px;
+}
+
+.mdFrameboxButtongroup {
+    text-align: center;
+    padding: 6px 10px 3px;
+}
+
+.mdFrameboxButton {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.mdFrameboxButton:hover {
+    opacity: 0.7;
+}
+
+.mdFrameboxButtonView {
+    background: url('/images/md_common/md_view_16x16.png') no-repeat;
+}
+
+.mdFrameboxButtonDel {
+    background: url('/images/md_common/md_delete_16x16.png') no-repeat;
+}
+
+.mdFrameboxButtonDown {
+    background: url('/images/md_common/md_download_16x16.png') no-repeat;
+}
+
+/* -------------- Utility Styles ---------------- */
+
+.mdClearFix {
+    clear: both;
+}
+
+.mdRound {
+    border-radius: 3px;
+}
+
+.mdDatepicker {
+    background: url('/images/md_common/md_calendar_16x16.png') no-repeat 94% center;
+}
+
+.mdDipnotText {
+    font-size: 11px;
+    color: #666;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.mdAjaxLoading {
+    background:url('/images/md_common/loading.gif') no-repeat center center;
+    width: 40px;
+    height: 40px;
+    margin: 20px auto;
+}
