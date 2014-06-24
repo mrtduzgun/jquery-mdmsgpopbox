@@ -7,8 +7,8 @@
  *  @author         Murat Duzgun
  *  @see            https://github.com/mrtduzgun/jquery-mdmsgpopbox
 */
- 
- .mdMsgpopboxOverlay {
+
+.mdMsgpopboxOverlay {
     background: none repeat scroll 0 0 #000000;
     height: 100%;
     left: 0;
@@ -23,8 +23,8 @@
 .mdMsgpopbox {
     position: fixed;
     top: 33%;
-    left: 33%;
-    width: 33%;
+    left: 40%;
+    right: 40%;
     color: #fff;
     background-color: #364247;
     z-index: 9999;
@@ -33,6 +33,7 @@
     font: bold 18px "Ubuntu Beta",UbuntuBeta,Ubuntu,"Bitstream Vera Sans","DejaVu Sans",Tahoma,sans-serif;
     letter-spacing: 0.5px;
     line-height: 140%;
+    text-align: left;
 }
 .mdMsgpopboxSuccess {
     padding: 16px 20px 20px 60px;
@@ -42,7 +43,7 @@
 .mdMsgpopboxFail {
     padding: 16px 20px 20px 60px;
     background: url('images/fail_32x32.png') no-repeat 15px center;
-    color: #FA3939;
+    color: #EE596B;
 }
 .mdMsgpopboxWarning {
     padding: 16px 20px 20px 60px;
